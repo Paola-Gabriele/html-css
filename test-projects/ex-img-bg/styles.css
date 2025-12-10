@@ -1,0 +1,8 @@
+div.square {
+    display: inline-block;
+    background-color: lightgray;
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
