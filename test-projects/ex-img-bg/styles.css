@@ -2,6 +2,11 @@ body {
     background-image: url(images/wallpaper001.jpg);
 }
 
+div.container-sq {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
 div.square {
     display: inline-block;
     background-color: lightgray;
