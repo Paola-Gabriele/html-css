@@ -1,3 +1,7 @@
+body {
+    background-image: url(images/wallpaper001.jpg);
+}
+
 div.square {
     display: inline-block;
     background-color: lightgray;
@@ -5,4 +9,16 @@ div.square {
     border-radius: 10px;
     height: 300px;
     width: 300px;
+}
+
+div#sq1 {
+    background-color: skyblue;
+}
+
+div#sq2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#sq3 {
+    background-image: url(images/pattern003.png);
 }
