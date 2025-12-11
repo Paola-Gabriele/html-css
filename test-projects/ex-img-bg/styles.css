@@ -8,7 +8,22 @@ div.container-border {
     padding: 5px;
 }
 
+h1 {
+    background-color: #FFF;
+    color: #8A5A2E;
 
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+
+    border-image-source: url(images/wallpaper001.jpg);
+    border-image-slice: 20;
+    border-image-repeat: repeat;
+
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
 
 div.container-sq {
     margin-top: 3.5rem;
