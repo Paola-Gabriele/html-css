@@ -1,0 +1,53 @@
+body {
+    background-image: url(images/wallpaper001.jpg);
+}
+
+div.container-border {
+    background-color: #FFF;
+    margin-top: 1.5rem;
+    padding: 5px;
+}
+
+h1 {
+    background-color: #FFF;
+    color: #8A5A2E;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+
+    border-image-source: url(images/wallpaper001.jpg);
+    border-image-slice: 20;
+    border-image-repeat: repeat;
+
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+div.container-sq {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+div.square {
+    display: inline-block;
+    background-color: lightgray;
+    border: 10px solid #8A5A2E;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+div#sq1 {
+    background-color: skyblue;
+}
+
+div#sq2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#sq3 {
+    background-image: url(images/pattern003.png);
+}
