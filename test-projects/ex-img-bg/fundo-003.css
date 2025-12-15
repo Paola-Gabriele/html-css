@@ -1,1 +1,10 @@
 @charset "UTF-8";
+
+body {
+    background-color: #678BC5;
+    background-image: url(images/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
