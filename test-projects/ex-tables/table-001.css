@@ -5,3 +5,8 @@ table {
     width: 500px;
 }
 
+tr:first-child {
+    background-color: #e85920;
+    color: #FFF;
+}
+
