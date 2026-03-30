@@ -1,3 +1,8 @@
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
     margin: 4.5rem auto;
