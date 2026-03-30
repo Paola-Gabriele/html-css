@@ -10,3 +10,7 @@ tr:first-child {
     color: #FFF;
 }
 
+td {
+    border: 1px solid #000;
+    padding: 10px;
+}
