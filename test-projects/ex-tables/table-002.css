@@ -42,3 +42,9 @@ tr > th {
 .border-foot{
     border-right: 1px solid #000;
 }
+
+.icon {
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 12px;
+}
