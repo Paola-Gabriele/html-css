@@ -29,3 +29,9 @@ tr, th, td {
     text-align: center;
 }
 
+tr > th {
+    background-color: #000;
+    border-right: 1px solid #FFF;
+    color: #FFF;
+}
+
