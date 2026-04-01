@@ -35,3 +35,10 @@ tr > th {
     color: #FFF;
 }
 
+.border-head {
+    border-right: 1px solid #000;
+}
+
+.border-foot{
+    border-right: 1px solid #000;
+}
