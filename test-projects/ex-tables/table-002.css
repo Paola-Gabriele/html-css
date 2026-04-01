@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #FFF;
     opacity: 1;
@@ -47,4 +52,22 @@ tr > th {
     margin-left: 5px;
     vertical-align: middle;
     width: 12px;
+}
+
+h3 {
+    display: inline-block;
+    border: 1px solid red;
+    margin: 1rem;
+    padding: .5rem;
+    position: relative;
+}
+
+/* effect border */
+h3::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid #000;
+    padding: .2rem;
+    transform: translateX(20px); /* desloca só a linha */
+    width: 100%;
 }
