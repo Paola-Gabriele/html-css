@@ -12,7 +12,7 @@ body {
 
 .table-container {
     background-color: #FFF;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
     padding: .5rem 1.25rem;
     width: 750px;
 }
@@ -54,9 +54,13 @@ tr > th {
     width: 12px;
 }
 
+section {
+    border: 1px solid black;
+    margin-bottom: 1.25rem;
+}
+
 h3 {
     display: inline-block;
-    border: 1px solid red;
     margin: 1rem;
     padding: .5rem;
     position: relative;
@@ -70,4 +74,9 @@ h3::after {
     padding: .2rem;
     transform: translateX(20px); /* desloca só a linha */
     width: 100%;
+}
+
+ol {
+    margin: 1rem 3.5rem;
+    text-align: justify;
 }
