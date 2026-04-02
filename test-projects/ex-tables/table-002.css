@@ -62,7 +62,6 @@ section {
 h3 {
     display: inline-block;
     margin: 1rem;
-    padding: .5rem;
     position: relative;
 }
 
@@ -71,7 +70,7 @@ h3::after {
     content: "";
     display: block;
     border-bottom: 5px solid #000;
-    padding: .2rem;
+    padding: .1rem;
     transform: translateX(20px); /* desloca só a linha */
     width: 100%;
 }
