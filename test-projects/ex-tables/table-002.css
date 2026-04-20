@@ -17,7 +17,13 @@ body {
     width: 750px;
 }
 
-h1 {
+caption {
+    background-color: #7b7b7b;
+    border: 1px solid #000;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
     text-align: center;
 }
 
