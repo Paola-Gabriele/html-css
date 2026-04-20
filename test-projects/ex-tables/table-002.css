@@ -46,6 +46,11 @@ tr > th {
     color: #FFF;
 }
 
+/* zebra striped table */
+tbody > tr:nth-child(2n) {
+    background-color: #dddcdc;
+}
+
 .border-head {
     border-right: 1px solid #000;
 }
