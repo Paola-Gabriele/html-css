@@ -6,25 +6,32 @@
 body {
     background-color: #FFF;
     opacity: 1;
-    background: radial-gradient(circle, transparent 20%, #FFF 20%, #FFF 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #FFF 20%, #FFF 80%, transparent 80%, transparent) 15px 15px, linear-gradient(#000 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px, linear-gradient(90deg, #000 1.2000000000000002px, #FFF 1.2000000000000002px) -0.6000000000000001px 0;
-    background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;
+    background-color: chartreuse;
 }
 
 .table-container {
     background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.512);
     margin: 2rem auto;
     padding: .5rem 1.25rem;
     width: 750px;
 }
 
+table {
+    position: relative;
+}
+
 caption {
     background-color: #7b7b7b;
     border: 1px solid #000;
+    border-bottom: none;
     color: #FFF;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.619);
 }
 
 table {
@@ -36,6 +43,8 @@ table {
 
 tr, th, td {
     border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
     padding: 10px;
     text-align: center;
 }
@@ -46,9 +55,21 @@ tr > th {
     color: #FFF;
 }
 
+thead > tr > th {
+    background-color: #000;
+    border-top: none;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
 /* zebra striped table */
 tbody > tr:nth-child(2n) {
     background-color: #dddcdc;
+}
+
+tfoot {
+    border: 1px solid #000;
 }
 
 .border-head {
