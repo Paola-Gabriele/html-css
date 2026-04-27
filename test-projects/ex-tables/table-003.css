@@ -1,8 +1,11 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .table-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    /*height: 100vh;*/
+    margin-top: 1.5rem;
 }
 
 table {
@@ -13,6 +16,7 @@ table {
 caption {
     background-color: #000;
     color: #FFF;
+    font-weight: bold;
     padding: .45rem 0;
 }
 
@@ -41,8 +45,6 @@ td {
     text-align: center;
 }
 
-/* 
-
 tfoot {
     color: #FFF;
     background-color: #F23030;
@@ -65,5 +67,3 @@ tfoot {
 .salesperson-003:nth-child(odd) {
     background-color: #4d4dec61;
 }
-
-*/
