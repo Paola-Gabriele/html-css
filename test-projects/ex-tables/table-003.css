@@ -10,7 +10,60 @@ table {
     width: 500px;
 }
 
+caption {
+    background-color: #000;
+    color: #FFF;
+    padding: .45rem 0;
+}
+
+thead {
+    background-color: #012340;
+    color: #FFF;
+}
+
+.thead-border-left {
+    border-left: none;
+}
+
+th {
+    border-left: 1px solid #FFF;
+    padding: .4rem;
+}
+
+.thead-border-right {
+    border-right: 1px solid #012340;
+}
+
 td {
-    border: 2px solid #000;
+    border-left: 1px solid #012340;
+    border-right: 1px solid #012340;
+    padding: .25rem;
     text-align: center;
 }
+
+/* 
+
+tfoot {
+    color: #FFF;
+    background-color: #F23030;
+    border-top: 1px solid #012340;
+    border-bottom: 1px solid #012340;
+}
+
+.tfoot-border-left {
+    border-left: 1px solid #012340;
+}
+
+.salesperson-001:nth-child(odd) {
+    background-color: #7fffd4ee;
+}
+
+.salesperson-002:nth-child(even) {
+    background-color: #ffff0091;
+}
+
+.salesperson-003:nth-child(odd) {
+    background-color: #4d4dec61;
+}
+
+*/
