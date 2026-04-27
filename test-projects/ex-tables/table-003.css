@@ -1,0 +1,16 @@
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td {
+    border: 2px solid #000;
+    text-align: center;
+}
