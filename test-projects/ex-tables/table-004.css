@@ -32,3 +32,13 @@ th, td {
     padding: .5rem 2rem;
     text-align: center;
 }
+
+th { 
+    background-color: #000;
+    color: #FFF;
+}
+
+tr:nth-child(2n) {
+    background-color: #b340ffa3;
+}
+
