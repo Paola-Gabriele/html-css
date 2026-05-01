@@ -1,3 +1,16 @@
+body {
+    background-color: #7fff00;
+}
+
+.table-container {
+    background-color: #FFF;
+    border: 1px solid black;
+    box-shadow: 0 0 15px #00000088;
+    display: flex;
+    justify-content: center;
+    margin: 8rem 14rem;
+}
+
 table {
     border: 1px solid #000;
     border-collapse: collapse;
@@ -5,8 +18,11 @@ table {
 }
 
 caption {
+    background-color: #5214CC;
     border: 1px solid #000;
     border-bottom: none;
+    color: #FFF;
+    font-weight: bold;
     padding: .5rem 2rem;
 }
 
@@ -14,4 +30,13 @@ th, td {
     border: 1px solid #000;
     padding: .5rem 2rem;
     text-align: center;
+}
+
+th {
+    background-color: #000;
+    color: #FFF;
+}
+
+tr:nth-child(2n) {
+    background-color: #b340ffa3;
 }
