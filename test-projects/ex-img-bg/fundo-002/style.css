@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div.block {
-    background-image: url(images/wallpaper003.jpg);
+    background-image: url(../images/wallpaper003.jpg);
     border: 2px solid black;
     border-radius: 10px;
     height: 200px;

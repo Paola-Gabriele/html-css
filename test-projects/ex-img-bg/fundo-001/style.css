@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(images/wallpaper001.jpg);
+    background-image: url(../images/wallpaper001.jpg);
 }
 
 div.container-border {
@@ -18,7 +18,7 @@ h1 {
     border-style: solid;
     border-color: transparent;
 
-    border-image-source: url(images/wallpaper001.jpg);
+    border-image-source: url(../images/wallpaper001.jpg);
     border-image-slice: 20;
     border-image-repeat: repeat;
 
@@ -51,5 +51,5 @@ div#sq2 {
 }
 
 div#sq3 {
-    background-image: url(images/pattern003.png);
+    background-image: url(../images/pattern003.png);
 }
