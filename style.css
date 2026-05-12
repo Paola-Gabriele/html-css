@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+.guide-content {
+    background-color: white;
+    border: 10px double orangered;
+    margin: 1rem 6rem .75rem;
+    padding: 2rem;
+}
+
+h1, strong {
+    color: blue;
+}
+
+/* effect border */
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid orangered;
+    padding: .1rem;
+    transform: translateX(20px); /* desloca só a linha */
+    width: 50%;
+}
+
+.border::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid orangered;
+    padding: .3rem;
+    transform: translateX(30px); /* desloca só a linha */
+    width: 10%;
+}
+
+.guide-content p {
+    text-align: justify;
+    margin: 2rem 10rem;
+}
+
+ul {
+    margin: 1rem 0;
+}
+
+ul li {
+    color: blue;
+    margin-left: 2rem;
+}
+
+ul li a:hover {
+    color: orangered;
+}
