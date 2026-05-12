@@ -17,8 +17,7 @@ Praticar e consolidar os conceitos fundamentais de **HTML5** e **CSS3**, aplican
 
 ### Índice
 
- - Imagens e multimídia: [Acesse aqui]()
- - Tabela: [Acesse aqui]()
+ - 👉🏼 [Acesse aqui](https://paola-gabriele.github.io/html-css/)
 
 ## 📝 Observação  
 Este repositório é voltado para fins de estudo e prática pessoal, acompanhando o progresso no curso.  
